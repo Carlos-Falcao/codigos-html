@@ -7,13 +7,14 @@
         <title>Projeto Front-End</title>
         <style>
             body {
-                background-color: black;
+                background-color: rgb(0, 0, 0);
                 background-image: url(./img/fundo.jpg);
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
                 background-attachment: fixed;
                 color: white;
+                font: normal 15pt arial;
             }
             div {
                 background-color: #f6f6f6;
@@ -46,13 +47,12 @@
             <img src="img/computacao.webp">
             <h1>Desenvolvimento de Sistemas</h1>
         </div>
-        <h2>Seja bem vindo _________.</h2>
-        <h3>Aqui vai o paragrafo onde os clientes poderam ver as informações do site.</h3>
+        <p>Aqui vai o parágrafo onde os clientes poderam ver as informações do site.</p>
         <hr>
-        <h4>clique <a href=https://www.alura.com.br>aqui</a> para aprender mais.</h4>
+        <p>clique <a href=https://www.alura.com.br>aqui</a> para aprender mais.</p>
         <script>
-            window.alert('Bem vindo ao meu site!!!');
-            window.prompt('Qual o seu nome?');
+            var nome = window.prompt('qual o seu nome?');
+            window.alert('Seja bem vindo ' + nome + '!!!'); //concatenação
         </script>
     </body>
 </html>
