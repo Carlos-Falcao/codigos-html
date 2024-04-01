@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto Front-End</title>
+        <style>
+            body {
+                background-color: rgb(0, 0, 0);
+                background-image: url(./img/fundo.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-attachment: fixed;
+                color: white;
+                font: normal 18pt arial;
+                /*margin: 0;
+                padding: 0; */
+            }
+           /* * {
+                margin: 0;
+                padding: 0;
+            }      PERGUNTAR AO PROFESSOR */
+            .comeco {
+                background-color: rgb(0, 0, 0);
+                border: 3px solid #990066;
+                border-radius: 20px;
+            }
+            img {
+                width: 300px;
+                height: 200px;
+                /* border-style: solid;
+                border-width: 5px;
+                border-color: #fafafa; */
+                border: 5px solid rgb(42, 10, 182);
+                border-radius: 10px;
+                margin: 20px 41%; 
+            }
+            .titulo {
+                color: rgb(255, 0, 0);
+                text-align: center;
+            }
+            h1 {
+                color: grey;
+                text-align: left;
+            /* margin-top: 50px;
+                margin-left: 30px;
+                margin-right: 30px;
+                margin-bottom: 40px; */
+                margin: 50px 40px;
+            } 
+            p {
+                color: white;
+                text-align: left;
+                margin-left: 10px;
+            } 
+            .home {
+                color: black;
+            }
+            .navbar {
+                display: flex;
+                justify-content: center; 
+                top: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="comeco">
+
+            <nav class="navbar background">
+                <ul class="Home">
+                    <li><a href="#inicio">Ínicio</a></li>
+                    <li><a href="#aulas">Matérias</a></li>
+                    <li><a href="#localizacao">Instituto</a></li>
+                    <li><a href="#js">JavaScript</a></li>
+                </ul>
+            </nav>
+
+            <img src="img/computacao.webp">
+            <h1 class="titulo">Desenvolvimento de Sistemas</h1>
+
+        </div>
+
+        <div id="inicio">
+
+            <h1>Projeto Front-End</h1>
+            <p>Aqui vai o parágrafo onde os clientes poderam ver as informações do site.</p>
+            <hr>
+            <p>clique <a href=https://www.alura.com.br>aqui</a> para aprender mais.</p>
+
+        </div>
+        
+        <div id="aulas">
+
+            <h1>Matérias</h1>
+            <ul>
+                <li>Análise de Projetos e Sistemas</li>
+                <li>Programação Front-End.</li>
+                <li>Ciências da Computação.</li>
+                <li>Programação Mobile.</li>
+                <li>Banco de Dados.</li>
+            </ul>
+
+        </div>
+
+        <div id="localizacao">
+
+            <h1>Instituto</h1>
+            <p> O instituto onde este programa esta sendo desenvovido é no Regente Feijó.</p>
+            <p> Quer saber mais informações sobre o <a href="http://www.colegioregentefeijo.com.br">Regente?</a></p>
+
+        </div>
+
+        <div id="js">
+
+            <h1>JavaScript</h1>
+            <p>JavaScript é uma linguagem de script orientada a objetos e plataforma cruzada usada para tornar as páginas da Web interativas (por exemplo, com animações complexas, botões clicáveis, menus pop-up etc.). Há também versões mais avançadas do lado do servidor do JavaScript, como Node.js, que permitem adicionar mais funcionalidades a um site do que baixar arquivos (como colaboração em tempo real entre vários computadores). Dentro de um ambiente de host (por exemplo, um navegador da Web), o JavaScript pode ser conectado aos objetos de seu ambiente para fornecer controle programático sobre eles.</p>
+        </div>
+
+        <script>
+
+            var nome = window.prompt('qual o seu nome?');
+            window.alert('Seja bem vindo ' + nome + '!!!'); //concatenação 
+
+        </script>
+    </body>
+</html>
