@@ -62,3 +62,10 @@ p {
     display: inline-block;
     margin: 30px 60px;
 }
+.secoes {
+    font-style: italic;
+    text-transform: uppercase;
+    color: grey;
+    text-align: left;
+    margin: 50px 40px;
+}
