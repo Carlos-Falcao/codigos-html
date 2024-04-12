@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+    color: white;
+    font: normal 18pt arial;
+    margin: 0;
+    padding: 0; 
+}
+* {
+    margin: 0;
+    padding: 0;
+}
