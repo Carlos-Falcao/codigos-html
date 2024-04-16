@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(151, 33, 167);
     color: white;
     font: normal 18pt arial;
     margin: 0;
@@ -8,4 +8,10 @@ body {
 * {
     margin: 0;
     padding: 0;
+}
+.titulo {
+    color: rgb(17, 205, 230);
+    text-transform: uppercase;
+    text-shadow: 4px 4px 5px black;
+    text-align: center;
 }
