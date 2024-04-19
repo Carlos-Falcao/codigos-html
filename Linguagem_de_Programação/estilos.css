@@ -31,6 +31,7 @@ body {
 }
 .home a:hover {
     color: rgb(0, 0, 0);
+    font-size: larger;
 }
 .secoes {
     color: rgb(40, 175, 228);
@@ -71,7 +72,29 @@ body {
     padding: 5px;
     position: relative;
     top: 1px;
-    left: 250px;
+    left: 348px;
     right: 10px;
     bottom: 50px;
+}
+h2 {
+    color: black;
+    text-transform: uppercase;
+}
+.o-que-sao-linguagens {
+    height: 270px;
+    width: 330px;
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    position: relative;
+    top: 1px;
+    left: 348px;
+    right: 10px;
+    bottom: 80px;
+}
+.informacoes {
+    background-color: rgb(14, 50, 92);
+    border: 2px solid black;
+    border-radius: 0px;
+    height: ;
 }
