@@ -74,6 +74,7 @@ p {
 }
 .menu a:hover {
     color: black;
+    font-size: larger;
 }
 .secoes {
     font-style: italic;
