@@ -60,7 +60,9 @@ p {
     font-weight: bold;
     line-height: 30px;
     margin-top: 0;
-    border: 2px solid red; 
+    border: 2px solid red;
+    position: sticky;
+    top: 0px; /*position: sticky define para descer junto com a rolagem */ 
 }
 .menu li {
     display: inline-block;
