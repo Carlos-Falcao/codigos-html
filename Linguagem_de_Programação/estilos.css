@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(12, 4, 44);
+    background-color: rgb(24, 10, 83);
     color: rgb(255, 255, 255);
     font: normal 18pt arial;
     margin: 0;
@@ -8,7 +8,7 @@ body {
 .home {
     color: black;
     background-color: rgb(255, 255, 255);
-    background-image: url(); /*colocar uma img de fundo em movimento*/
+    background-image: url(./img/galax.gif);
     list-style: none; /*Deixa a lista sem marcação*/
     text-align: center;
     text-transform: uppercase;
@@ -18,7 +18,7 @@ body {
     margin-top: 0;
     border: 3px solid #990066ed; 
     border-radius: 20px;
-    position: sticky; /*Tirar essa parte para acrescentar um bontão*/
+    position: sticky;
     top: 0px;
     z-index: 5;
 }
@@ -31,7 +31,7 @@ body {
     text-transform: none;
 }
 .home a:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
     font-size: larger;
 }
 .secoes {
@@ -91,6 +91,10 @@ body {
     left: 348px;
     right: 10px;
     bottom: 80px;
+}
+.vidio {
+    border: 5px solid red;
+    border-radius: 30px;
 }
 .informacoes {
     background-color: rgb(14, 50, 92);
